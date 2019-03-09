@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+  
+  <style>
+    
+  #message_container {
+    width: 300px;
+    height: 270px;
+    margin: 0; 
+    padding: 0;
+    text-align: left;
+    overflow:auto;
+    outline: none;
+  }
+  #notification_list{
+    margin: 0; 
+    padding: 0;
+  }
+  #notification_list li{
+    margin-left:0; 
+    padding: 3px;
+    background-color: #e6ffff;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    padding-top: 5px;
+    font-family: Trebuchet MS;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  #mark_all_read{
+      text-decoration: none;
+    }
+  #mark_all_read  :hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <center><h1 style="color:Teal;">GitHub Notification Bot</h1></center>
+  <center><div id="loginDetails">
+        <h3>Insert Personal Access Token:</h3> <input type="text" id="gitHubToken"><br><br>
+        <button id="setGitToken" style="text-align: center;">Save</button>
+        <p id="errorBox" style="color:Red;">Invalid Personal Accesss Token</p>
+      </div>
+     <div id="message_container">
+    <ul id="notification_list"> </ul>
+  </div></center>
+  <br>
+  
+  
+
+  <div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <div style="display: table-cell;"> <button id="mark_all_read">Mark all as read</button> </div>
+        <div style="display: table-cell;"> <div id= "enableDisableBox" align="right"> 
+    <input id ="enableNot" type="checkbox" name="enable_notifications" value="enable_notifications" > Enable Notifications<br>
+  </div> </div>
+    </div>
+</div>
+
+ <script src="background.js"></script>
+  <script src="config.js"></script>
+  <script src="popup.js"></script>
+  <script src="options.js"></script>
+</body>
+  
+</html>
