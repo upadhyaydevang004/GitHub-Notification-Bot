@@ -1,8 +1,8 @@
 {
     "name": "GitHub Notifications Bot",
-    "version": "1.0",
+    "version": "5.5",
     "options_page": "options.html",
-    "description": "Build an Extension!",
+    "description": "Track your github notifications using this bot",
     "permissions": ["storage", "declarativeContent"],
     "background": {
       "scripts": ["background.js"],

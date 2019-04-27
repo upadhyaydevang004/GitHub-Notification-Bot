@@ -1,6 +1,7 @@
 const assert = require('chai').assert;
 const verifyToken = require('../options');
 const fetchToken = require('../options');
+const showNotifications = require('../popup')
 
 describe('fetchToken', function() {
   it('There is a git token in the file', async function fetchToken() {
@@ -23,3 +24,18 @@ describe('verifyToken', function() {
     assert.equal(result, 'true');
   })
 })
+
+describe('showNotifications', function() {
+  it('The notifications are correctly shown after correct token is entered', function showNotifications(NotificationsJson))
+	var notifications = JSON.parse(NotificationsJson);
+	var correctToken = await fetchToken();
+	if ( gitTokenValue = localStorage["gitToken"] ){
+		return notifications;
+	} else {
+		false;
+	}
+	assert.true(notifications);
+  })
+})
+
+	
