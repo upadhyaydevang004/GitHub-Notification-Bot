@@ -20,13 +20,13 @@ Missing notifications can lead to problems that slow down the development proces
 This feature included several steps that consisted of installing the extension and providing a correct personal access token in order to access the notifications from GitHub. The bot can be added from the "Chrome Web Store" or by downloading the code from the GitHub repo and then installing it from the extensions page.
 
 <p align="center">
-<img align="center" src="https://github.ncsu.edu/bbdeshpa/csc510-project/blob/master/extension.png">
+<img align="center" src="https://github.com/upadhyaydevang004/GitHub-Notification-Bot/blob/master/extension.png">
 </p>
 <br>
 <br>
 
 <p align="center">
-<img align="center" src="https://github.ncsu.edu/bbdeshpa/csc510-project/blob/master/chrome_store.png">
+<img align="center" src="https://github.com/upadhyaydevang004/GitHub-Notification-Bot/blob/master/chrome_store.png">
 </p>
 <br>
 <br>
@@ -34,7 +34,7 @@ This feature included several steps that consisted of installing the extension a
 Once the user has installed the bot, he/she will be prompted to enter an access token. 
 
 <p align="center">
-<img align="center" src="https://github.ncsu.edu/bbdeshpa/csc510-project/blob/master/first_page.png">
+<img align="center" src="https://github.com/upadhyaydevang004/GitHub-Notification-Bot/blob/master/first_page.png">
 </p>
 <br>
 <br>
@@ -42,7 +42,7 @@ Once the user has installed the bot, he/she will be prompted to enter an access 
 If the user has entered an invalid personal access token, the user will not be provided access to the GitHub repository.
 
 <p align="center">
-<img align="center" src="https://github.ncsu.edu/bbdeshpa/csc510-project/blob/master/invalid.png">
+<img align="center" src="https://github.com/upadhyaydevang004/GitHub-Notification-Bot/blob/master/invalid.png">
 </p>
 <br>
 <br>
@@ -52,7 +52,7 @@ If the user has entered an invalid personal access token, the user will not be p
 Once the user has logged in, he/she will be able to view the notifications on the content of the extension. 
 
 <p align="center">
-<img align="center" src="https://github.ncsu.edu/bbdeshpa/csc510-project/blob/master/noti.jpeg">
+<img align="center" src="https://github.com/upadhyaydevang004/GitHub-Notification-Bot/blob/master/noti.jpeg">
 </p>
 <br>
 <br>
@@ -63,7 +63,7 @@ Once the user has logged in, he/she will be able to view the notifications on th
 A checkbox would be provided to the user, in case he/she would want an option to disable and re-enable the notifications.   
 
 <p align="center">
-<img align="center" src="https://github.ncsu.edu/bbdeshpa/csc510-project/blob/master/enable.jpg">
+<img align="center" src="https://github.com/upadhyaydevang004/GitHub-Notification-Bot/blob/master/enable.jpg">
 </p>
 <br>
 <br>
@@ -73,7 +73,7 @@ If the user has not checked on the "Enable Notifications" checkbox, that is disa
 
 
 <p align="center">
-<img align="center" src="https://github.ncsu.edu/bbdeshpa/csc510-project/blob/master/disabled.png">
+<img align="center" src="https://github.com/upadhyaydevang004/GitHub-Notification-Bot/blob/master/disabled.png">
 </p>
 <br>
 <br>
@@ -83,7 +83,7 @@ If the user has not checked on the "Enable Notifications" checkbox, that is disa
 A button "Mark All Read" will be provided to the user which he/she can use to remove all the notifications from the page. This will automatically clear all the notifications on the GitHub page too.
 
 <p align="center">
-<img align="center" src="https://github.ncsu.edu/bbdeshpa/csc510-project/blob/master/basic.png">
+<img align="center" src="https://github.com/upadhyaydevang004/GitHub-Notification-Bot/blob/master/basic.png">
 </p>
 <br>
 <br>
@@ -93,7 +93,7 @@ A button "Mark All Read" will be provided to the user which he/she can use to re
 If the developers make any change to the version of the bot in the "manifest.json" file of the repository, the user will be prompted the update the bot from the chrome store. This way, the user can always be up to date with the application. 
 
 <p align="center">
-<img align="center" src="https://github.ncsu.edu/bbdeshpa/csc510-project/blob/master/version.png">
+<img align="center" src="https://github.com/upadhyaydevang004/GitHub-Notification-Bot/blob/master/version.png">
 </p>
 <br>
 <br>
